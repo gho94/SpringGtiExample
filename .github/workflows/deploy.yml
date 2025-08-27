@@ -54,7 +54,7 @@ jobs:
       # 5. Doker 이미지 빌드
       - name: Build Docker image
         run: |
-          docker build -t ${{ secrets.DOCKER_IMAGE_NAME }}
+          docker build -t ${{ secrets.DOCKER_IMAGE_NAME }} .
 
       # 6. 새 Docker 컨데이터 실행
       - name: Run new Docker container
