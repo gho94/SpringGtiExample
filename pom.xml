@@ -13,6 +13,7 @@
 	<version>1.0</version>
 	<name>myapp</name>
 	<description>Spring Boot를 이용한 게시판</description>
+	<packaging>jar</packaging>
 	<url/>
 	<licenses>
 		<license/>
